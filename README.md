@@ -1,9 +1,9 @@
 # RAG Langchain
 This project implements a RAG (Retrieval Augmented Generation) system using LangChain with the following main components:
 
-**1. Database Creation**
-**2. Embedding**
-**3. Query Data**
+1. **Database Creation**
+2. **Embedding**
+3. **Query Data**
 
 ## Basic Idea
 ```mermaid
@@ -67,11 +67,11 @@ graph TD
     ```bash
     pip install -r requirements.txt
     ```
-2. Create the ChromaDB by running the python script below:
+3. Create the ChromaDB by running the python script below:
     ```bash
     python create_database.py
     ```
-3. Run the main file `query_data.py` to run this repo:
+4. Run the main file `query_data.py` using the commad below:
     ```bash
     python query_data.py <query>
     ```
